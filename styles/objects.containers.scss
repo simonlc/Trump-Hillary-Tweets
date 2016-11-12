@@ -1,0 +1,23 @@
+.tweets-container {
+  min-height: 100vh;
+  background: $trump;
+  transition: background-color 0.2s;
+  padding-top: 120px;
+  @media (min-width: 600px) {
+    padding-top: 220px;
+  }
+}
+.hillary .tweets-container {
+  background: $hillary;
+}
+.tweets-wrap {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: auto;
+  padding: 20px;
+  @media (min-width: 600px) {
+    padding: 0;
+    width: 520px;
+    max-width: 80%;
+  }
+}
