@@ -8,9 +8,7 @@ For development, you need to create a config.json file in ./app/server/ with the
 
 Running the project is as simple as running `npm i && gulp`.
 
-## Features
-
-Used flexbox reverse order to prevent every component from updating on every new tweet, while still keeping the traditional twitter layout.
+The site will be accessible from `http://localhost:4000`
 
 ## License
 
